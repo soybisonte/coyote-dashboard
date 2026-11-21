@@ -20,7 +20,7 @@ NimBLE-Arduino por separado: se usa BLE del core. Biblioteca y versión:
 | Adafruit GFX Library | 1.13.0 |
 | Adafruit SSD1306 | 2.5.17 |
 | Adafruit ST7735 and ST7789 Library | 1.12.0 |
-| XPT2046_Touchscreen | 1.4 |
+| XPT2046_Touchscreen | 1.4.0 |
 
 En IDE añade el [índice estable de Espressif](https://espressif.github.io/arduino-esp32/package_esp32_index.json)
 al gestor de placas e instala la versión indicada. Es el método descrito

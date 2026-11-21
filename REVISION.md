@@ -4,6 +4,9 @@ Fecha: 21 de noviembre de 2026. Edición inicial preparada desde los sketches
 finales del prototipo COYOTE. Core ESP32 3.3.10, Arduino CLI 1.5.0 local;
 la automatización host usa CLI 1.5.1.
 
+Las versiones están disponibles en el índice Arduino. XPT2046 se publica
+como **1.4.0** en ese índice, aunque su `library.properties` indique `1.4`.
+
 ## Compilación local
 
 Los cuatro destinos compilaron con las plantillas públicas y los relés
