@@ -1,0 +1,17 @@
+{
+  "core": "esp32:esp32@3.3.10",
+  "index": "https://espressif.github.io/arduino-esp32/package_esp32_index.json",
+  "libraries": [
+    "Adafruit BusIO@1.17.4",
+    "Adafruit GFX Library@1.13.0",
+    "Adafruit SSD1306@2.5.17",
+    "Adafruit ST7735 and ST7789 Library@1.12.0",
+    "XPT2046_Touchscreen@1.4"
+  ],
+  "boards": {
+    "c6": {"sketch": "XJ_Dashboard_C6", "fqbn": "esp32:esp32:esp32c6:CDCOnBoot=cdc,FlashSize=8M,PartitionScheme=default_8MB"},
+    "tft": {"sketch": "XJ_Mando_TFT", "fqbn": "esp32:esp32:esp32:FlashSize=4M,PartitionScheme=default,PSRAM=disabled"},
+    "c5": {"sketch": "XJ_Relevadores_C5", "fqbn": "esp32:esp32:esp32c5:CDCOnBoot=cdc"},
+    "mapa": {"sketch": "Prueba_Mapa_OLED_C6", "fqbn": "esp32:esp32:esp32c6:CDCOnBoot=cdc,FlashSize=8M,PartitionScheme=default_8MB"}
+  }
+}

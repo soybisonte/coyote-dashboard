@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+build/
+output/
+config.local.json
+bitacora/estado.local.md
+*.bin
+*.elf
+*.map
+*.zip
