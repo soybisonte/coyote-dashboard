@@ -16,6 +16,7 @@ def main():
     commands = [
         ["core", "update-index", "--additional-urls", cfg["index"]],
         ["core", "install", cfg["core"], "--additional-urls", cfg["index"]],
+        ["lib", "update-index"],
         ["lib", "install", *cfg["libraries"]],
     ]
     for command in commands:

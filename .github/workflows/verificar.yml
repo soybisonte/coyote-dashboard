@@ -17,7 +17,9 @@ jobs:
         with:
           version: '1.5.1'
       - name: Instalar GFX para pruebas host
-        run: arduino-cli lib install 'Adafruit GFX Library@1.13.0'
+        run: |
+          arduino-cli lib update-index
+          arduino-cli lib install 'Adafruit GFX Library@1.13.0'
       - name: Validar documentos y copias compartidas
         run: python3 tools/verificar.py
       - name: Pruebas de configuracion, relevadores, logger y TFT
